@@ -1,0 +1,56 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: ;
+}
+.container {
+    background-color: yellow;
+    display: flex;
+    /* row row reverse column column reverse */
+    flex-direction: row;
+    /* along main axis */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* along cross axis */
+    align-items: center;
+    gap: 20px;
+    /* flex-start flex end center space aounf space evenly space-between */
+    height: 500px;
+    /* justify content works along main axis & main axis moves alog flex direction*/
+
+}
+
+.container .item {
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+.card{
+    border: 2px solid blue;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.btn{
+    background-color: black;
+    color: white;
+    text-decoration: none; 
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    
+}
